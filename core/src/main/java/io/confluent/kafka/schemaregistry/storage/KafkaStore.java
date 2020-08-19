@@ -116,7 +116,7 @@ public class KafkaStore<K, V> implements Store<K, V> {
     }
     localStore.init();
 
-    createOrVerifySchemaTopic();
+    // createOrVerifySchemaTopic();
 
     // set the producer properties and initialize a Kafka producer client
     Properties props = new Properties();
